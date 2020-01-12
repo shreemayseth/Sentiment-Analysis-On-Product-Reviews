@@ -1,5 +1,5 @@
 # Sentiment-Analysis-On-Product-Reviews
-![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg)    ![Problem Kaggle](https://img.shields.io/badge/Data-Kaggle-orange.svg)
+![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg)    ![Problem Kaggle](https://img.shields.io/badge/Data-Kaggle-orange.svg)  ![Python 3.6](https://img.shields.io/badge/Problem-NLP-blue.svg)
 
 ### Problem statement :
 
