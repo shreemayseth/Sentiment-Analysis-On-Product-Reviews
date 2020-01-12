@@ -1,0 +1,138 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/8e3ff434559659.56d5b17b2c0fc.gif);
+	background-size: cover;
+	font-family: sans-serif;
+}
+.loginBox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 450px;
+	height: 420px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+	border-radius: 20px;
+}
+.user
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #efed40;
+	text-align: center;
+}
+.loginBox p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.loginBox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+::placeholder
+{
+	color: rgba(255,255,255,.5);
+}
+.loginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #ff267e;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover
+{
+	background: #efed40;
+	color: #262626;
+}
+.loginBox a
+{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+textarea
+{
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+.container{
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background:#03A9F4;#35434a;
+	border-bottom:#448AFF 3px solid;
+	height:100px;
+	width:100%;
+	padding-top:30px;
+
+}
+
+.main-header{
+			text-align:center;
+			background-color: blue;
+			height:100px;
+			width:;
+			margin:0px;
+		}
+#brandname{
+	float:left;
+	font-size:30px;
+	color: #fff;
+	margin: 10px;
+}
+header h2{
+	color:#fff;
+	position: absolute;
+	top: 6%;
+	left: 41%;
+
+}
+.btn-info {
+	background-color: #2196F3;
+	height:40px;
+	width:100px;
+	float: right;
+	top: 20%;
+} 
+.btn-info:hover {background: #0b7dda;}

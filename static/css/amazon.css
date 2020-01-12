@@ -1,0 +1,119 @@
+body{
+	font-family: poppins;
+	background-image: url(https://i.pinimg.com/originals/f5/39/a4/f539a4bad63f16a50a165fe0e8d63e28.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+header .carousel-inner .item{
+	height: 100vh;
+	color: black;
+}
+header .navbar-inverse{
+	background-color: transparent;
+	border-color: transparent;
+	font-weight: bold;
+	font-size: 15px;
+	height: 20px;
+	top: 2%;
+	color: black;
+}
+
+header .navbar-collapse >li>a:hover{
+	color:black;
+}
+
+.navbar-inverse .navbar-brand{
+	color: black;
+	font-size: 40px;
+	padding: 0px 15px;
+	font-weight: 900;
+}
+
+.nav .navbar-nav .navbar-right{
+	margin: 250px 0;
+}
+
+.nav .navbar-nav .navbar-right .active{
+	background-color: blue;
+	background-image: none;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: black;
+	text-transform: uppercase;
+	background-color: transparent;
+}
+
+ul.dropdown-menu{
+	color: #fff;
+	background-color: transparent;
+	font-weight: bold;
+	
+}
+ul.dropdown-menu >li>a:hover{
+	color: black;
+	background-color: transparent;
+	background-image: none; 
+	font-weight: bold;
+}
+
+.banner{
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.carousel-caption{
+	padding-bottom: 250px;
+	font-family: poppins;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.carousel-caption h2{
+	font-size: 70px;
+	text-transform: ;
+	font-weight: bold;
+}
+
+.carousel-caption h1 span{
+	color:yellow;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.carousel-caption a{
+	background: #edbb00;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 25px;
+	
+}
+
+.carousel-caption a:hover{
+	opacity: 0.9;
+	color: black;
+
+}
+
+ul a:hover{
+	color: black;
+
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+		color: black;
+
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: black;
+    background-color: transparent;
+}
