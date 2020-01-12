@@ -15,7 +15,7 @@ In this Section we are implementing Classifier Model for classifying Positive Re
 * Numpy
 
 ### Data Collection :
-kaggle
+ * kaggle
 
 ### Data Prepocessing:
  * Removing StopWords
@@ -24,3 +24,6 @@ kaggle
  
 ### Train model
  * Mutinomial Naive-Bayes
+ 
+### Deployment
+ * FLASK
