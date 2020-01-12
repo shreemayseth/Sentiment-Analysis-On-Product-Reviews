@@ -5,9 +5,6 @@
 
 In this Section we are implementing Classifier Model for classifying Positive Reviews and Negative Reviews.
 
-### Data Collection :
-kaggle
-
 ### Dependencies
 * Jupyter notebook
 * Python 3.6
@@ -16,3 +13,14 @@ kaggle
 * Scikit-Learn
 * Pandas
 * Numpy
+
+### Data Collection :
+kaggle
+
+### Data Prepocessing:
+ * Removing StopWords
+ * Vectorization
+ * Tf-idf
+ 
+### Train model
+ * Mutinomial Naive-Bayes
