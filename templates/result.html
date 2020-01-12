@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="brandname">
+				<img src="https://merivis.org/wp-content/uploads/2018/02/Amazon-Logo-Transparent-PNG-300x300.png" height="90px", width="100px">
+			</div>
+			<h2>Sentiment Analysis</h2>
+		</div>
+	</header>
+	<div class="results">
+		{%	if prediction == 1 %}
+		<center><h2 style="color:red;">Negative Review</h2></center>
+		<center><img src="http://www.pngmart.com/files/1/Sad-Emoji-PNG-Transparent-Image.png" height="350" width="350"></center>
+		<center><h2 style="color:red;">We are sorry for your inconvenience</h2></center>
+		{% elif prediction == 0 %}
+		<center><h2 style="color:blue;">Positive Review</h2></center>
+		<center><img src="https://i.pinimg.com/originals/ac/0d/98/ac0d98d4470ba500a448a79de9fe2aad.png" height="330" width="330"></center>
+		<center><h2 style="color:blue;">We are Glad you liked it</h2></center>
+		{% endif %}
+		<button onclick="location.href = 'http://127.0.0.1:8000/';" class="btn-info" class="float-right submit-button" >Exit</button>
+	</div>
+
+</body>
+</html>

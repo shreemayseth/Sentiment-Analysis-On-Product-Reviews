@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		function check_required_inputs() {
+    	$('.required').each(function(){
+        if( $(this).val() == "" ){
+          alert('Please fill all the fields');
+			return false;
+        }
+    });
+    return action{{ url_for('predict')}};
+}
+	</script>
+</head>
+<body>
+		<header>
+		<div class="container">
+			<div id="brandname">
+				<img src="https://merivis.org/wp-content/uploads/2018/02/Amazon-Logo-Transparent-PNG-300x300.png" height="90px", width="100px">
+			</div>
+			<h2>Sentiment Analysis</h2>
+		</div>
+	</header>
+		<div class="loginBox">
+			<img src="https://cdn.vox-cdn.com/thumbor/DoFcIGEr-KbYS4zcSLzGW0WNk7M=/0x0:580x433/1200x800/filters:focal(244x171:336x263)/cdn.vox-cdn.com/uploads/chorus_image/image/60211035/asimo.0.jpeg" class="user">
+			<h2>Review Form</h2>
+			<form action="{{ url_for('predict')}}" method="POST" onsubmit="return check_required_inputs()">
+				<p>Enter Product Category</p>
+				<input name="name" list ="name" id="category" type="text" placeholder="Enter Product Category" class="required">
+				<datalist id="name">
+    				<option value="Mobile">
+    				<option value="Cloths">
+    				<option value="Earphones">
+    				<option value="Appliances">
+    				<option value="Camera">
+    				<option value="Furniture">
+  				</datalist>
+  				<p>Enter Product Name</p>
+				<input name="number" type="text" id="name" placeholder="Enter Product Name" class="required">
+				<p>Enter your Review</p>
+				<textarea name="comment" rows="4" id="review" cols="40" class="required"></textarea>
+				<br><br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</body>
+</html>
